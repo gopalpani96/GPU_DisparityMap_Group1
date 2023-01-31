@@ -1,5 +1,5 @@
 # GPU_DisparityMap_Group1
-Disparity map calculation using SSD and SAD Algorithm
+Disparity Map Estimation using SSD and SAD Algorithm
 Instructions to run this code on Linux Environment
 
 Environment Configuration:
