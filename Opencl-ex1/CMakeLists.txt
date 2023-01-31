@@ -30,5 +30,5 @@ target_include_directories (Opencl-ex1 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} "CORE"
 target_link_libraries (Opencl-ex1 ${OpenCL_LIBRARY} dl )
 
 file(COPY src/Disparity_Map_Proj.cl DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
-file(GLOB images "Input/*")
-file(COPY ${images} DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/Input)
+file(GLOB images "data_input/*")
+file(COPY ${images} DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/data_input)
