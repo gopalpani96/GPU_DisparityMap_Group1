@@ -2,8 +2,8 @@
 // GPU Project Group 1: Disparity Map
 // File Name : Disparity_Map_Proj.cpp
 // Author : Rucha Golwalkar st179996@stud.uni-stuttgart.de , University of Stuttgart
-//			Gopal Panigrahi st179549@stud.uni-stuttgart.de , University of Stuttgart
-//			Mandar Kharde   st179460@stud.uni-stuttgart.de , University of Stuttgart
+//		Gopal Panigrahi st179549@stud.uni-stuttgart.de , University of Stuttgart
+//		Mandar Kharde   st179460@stud.uni-stuttgart.de , University of Stuttgart
 //////////////////////////////////////////////////////////////////////////////
 
 // Includes Libraries
@@ -244,7 +244,7 @@ int main(int argc, char** argv) {
 
 			//////// Store Output Image - CPU with SAD ///////////////////////////////////
 			Core::writeImagePGM("data_output/output_disparity_CPU_SAD.pgm", h_output_CPU_SAD, countX, countY);
-			std::cout << "\ndata_output/output_disparity_CPU_SAD.pgm Has been Generated" << std::endl;
+			std::cout << "\ndata_output/output_disparity_CPU_SAD.pgm has been Generated" << std::endl;
 			std::cout << "\n__________________ CPU Execution for SAD Completed _________________" << std::endl;
 		}
 		if (impl == 2)
@@ -263,7 +263,7 @@ int main(int argc, char** argv) {
 
 			//////// Store Output Image - CPU with SSD ///////////////////////////////////
 			Core::writeImagePGM("data_output/output_disparity_CPU_SSD.pgm", h_output_CPU_SSD, countX, countY);
-			std::cout << "\ndata_output/output_disparity_CPU_SSD.pgm Has been Generated" << std::endl;
+			std::cout << "\ndata_output/output_disparity_CPU_SSD.pgm has been Generated" << std::endl;
 			std::cout << "\n__________________ CPU Execution for SSD Completed _________________" << std::endl;
 		}
 
