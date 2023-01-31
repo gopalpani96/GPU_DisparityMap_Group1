@@ -8,7 +8,7 @@ Environment Configuration:
 
 Building and Executing the project on the Server:
 1. Open Powershell or Command prompt in your local machine to build and execute the following commands
-2. Connect to ssh panigrgn@phobos.cis.iti.uni-stuttgart.de
+2. Connect to ssh username@phobos.cis.iti.uni-stuttgart.de
 3. Connect to ssh phoebe
 4. Enter the password provided by CIS team in order to access the server
 5. Unzip the above downloaded project from GitHub
